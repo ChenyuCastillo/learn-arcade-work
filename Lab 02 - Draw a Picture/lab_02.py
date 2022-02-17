@@ -19,7 +19,7 @@ arcade.set_background_color(arcade.color.AIR_SUPERIORITY_BLUE)
 arcade.start_render()
 
 # Draw the grass
-arcade.draw_lrtb_rectangle_filled(0, 800, 200, 0, arcade.color.BITTER_LIME)
+arcade.draw_lrtb_rectangle_filled(0, 800, 200, 0, arcade.color.APPLE_GREEN)
 
 # --- Draw the barn ---
 
@@ -27,7 +27,7 @@ arcade.draw_lrtb_rectangle_filled(0, 800, 200, 0, arcade.color.BITTER_LIME)
 arcade.draw_lrtb_rectangle_filled(30, 350, 210, 170, arcade.color.BISQUE)
 
 # Bottom half
-arcade.draw_lrtb_rectangle_filled(30, 350, 350, 210, arcade.color.BROWN)
+arcade.draw_circle_filled(200, 300, 150.0, arcade.color.BITTER_LIME)
 
 # Left-bottom window
 arcade.draw_rectangle_filled(70, 260, 30, 40, arcade.color.BONE)
