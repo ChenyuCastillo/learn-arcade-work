@@ -25,17 +25,23 @@ arcade.draw_lrtb_rectangle_filled(230, 270, 330, 290, arcade.color.BABY_BLUE_EYE
 arcade.draw_lrtb_rectangle_filled(325, 375, 335, 285, arcade.color.PURPLE_MOUNTAIN_MAJESTY)
 arcade.draw_lrtb_rectangle_filled(330, 370, 330, 290, arcade.color.BABY_BLUE_EYES)
 
-arcade.draw_lrtb_rectangle_filled(225, 275, 250, 200, arcade.color.PURPLE_MOUNTAIN_MAJESTY)
-arcade.draw_lrtb_rectangle_filled(230, 270, 245, 205, arcade.color.BABY_BLUE_EYES)
+arcade.draw_lrtb_rectangle_filled(225, 275, 255, 205, arcade.color.PURPLE_MOUNTAIN_MAJESTY)
+arcade.draw_lrtb_rectangle_filled(230, 270, 250, 210, arcade.color.BABY_BLUE_EYES)
 
-arcade.draw_lrtb_rectangle_filled(325, 375, 250, 200, arcade.color.PURPLE_MOUNTAIN_MAJESTY)
-arcade.draw_lrtb_rectangle_filled(330, 370, 245, 205, arcade.color.BABY_BLUE_EYES)
+arcade.draw_lrtb_rectangle_filled(325, 375, 255, 205, arcade.color.PURPLE_MOUNTAIN_MAJESTY)
+arcade.draw_lrtb_rectangle_filled(330, 370, 250, 210, arcade.color.BABY_BLUE_EYES)
 
 #creación de la puerta
-arcade.draw_lrtb_rectangle_filled(275, 325, 200, 125, arcade.color.BROWN_NOSE)
+arcade.draw_lrtb_rectangle_filled(275, 325, 200, 125, arcade.color.BRONZE)
 
 #pomio de la puerta
-arcade.draw_circle_filled(320, 150, 2, arcade.color.BROWN)
+arcade.draw_circle_filled(320, 160, 2, arcade.color.BROWN)
+
+#tejado de la casa
+arcade.draw_triangle_filled(200, 380, 400, 380, 300, 450, arcade.color.WHITE)
+
+#camino que sale de la casa
+
 
 arcade.finish_render()
 
