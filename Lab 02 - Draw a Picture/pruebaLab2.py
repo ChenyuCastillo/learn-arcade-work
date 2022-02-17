@@ -8,7 +8,9 @@ arcade.start_render()
 
 arcade.draw_circle_filled(725, 525, 50, arcade.color.ORANGE)
 
-arcade.draw_lrtb_rectangle_filled(0, 800, 100, 0)
+arcade.draw_lrtb_rectangle_filled(0, 800, 150, 0, arcade.color.BANGLADESH_GREEN)
+
+arcade.draw_lrtb_rectangle_filled(200, 375, 350, 125, arcade.color.BLUE_GREEN)
 
 arcade.finish_render()
 
