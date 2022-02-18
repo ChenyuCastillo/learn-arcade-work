@@ -42,7 +42,7 @@ arcade.draw_triangle_filled(200, 380, 400, 380, 300, 450, arcade.color.WHITE)
 
 #camino que sale de la casa
 
-
+arcade.draw_lrtb_rectangle_filled(250, 350, 125, 0, arcade.color.GRAY)
 arcade.finish_render()
 
 arcade.run()
