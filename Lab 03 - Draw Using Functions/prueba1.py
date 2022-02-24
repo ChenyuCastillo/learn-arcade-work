@@ -21,17 +21,22 @@ def puerta():
     arcade.draw_circle_filled(320, 160, 2, arcade.color.BROWN)
 
 
-
+def tejado():
+    arcade.draw_triangle_filled(200, 380, 400, 380, 300, 450, arcade.color.WHITE)
 
 def casa():
     arcade.draw_lrtb_rectangle_filled(200, 400, 380, 125, arcade.color.BLUE_GREEN)
 
     ventanas()
     puerta()
+    tejado()
 
 def suelo():
     arcade.draw_lrtb_rectangle_filled(0, 800, 150, 0, arcade.color.BANGLADESH_GREEN)
     arcade.draw_lrtb_rectangle_filled(250, 350, 125, 0, arcade.color.GRAY)
+
+def sol():
+    arcade.draw_circle_filled(725, 525, 50, arcade.color.ORANGE)
 
 
 def main():
@@ -40,6 +45,7 @@ def main():
     arcade.start_render()
 
     suelo()
+    sol()
     casa()
 
     arcade.finish_render()
