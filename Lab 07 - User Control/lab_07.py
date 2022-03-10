@@ -55,7 +55,7 @@ class MyGame(arcade.Window):
 
         arcade.draw_lrtb_rectangle_filled(250, 350, 125, 0, arcade.color.GRAY)
 
-        #arcade.start_render()
+        #arcade.start_render() hola
 
 
 def main():
