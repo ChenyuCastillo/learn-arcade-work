@@ -58,6 +58,7 @@ class MyGame(arcade.Window):
         #arcade.start_render()
 
 
+
 def main():
     window = MyGame()
     arcade.run()
