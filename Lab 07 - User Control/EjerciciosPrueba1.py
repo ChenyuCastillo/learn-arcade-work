@@ -4,7 +4,6 @@ SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
 MOVEMENT_SPEED = 3
 
-
 class Ball:
     def __init__(self, position_x, position_y, change_x, change_y, radius, color):
 
@@ -19,10 +18,7 @@ class Ball:
 
     def draw(self):
         """ Draw the balls with the instance variables we have. """
-        arcade.draw_circle_filled(self.position_x,
-                                  self.position_y,
-                                  self.radius, self.
-                                  color)
+        arcade.draw_circle_filled()
 
     def update(self):
         # Move the ball
@@ -89,4 +85,4 @@ class MyGame(arcade.Window):
 def main():
     window = MyGame(640, 480, "Drawing Example")
     arcade.run()
-main()
+    main()
